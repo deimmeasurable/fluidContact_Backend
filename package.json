@@ -1,0 +1,21 @@
+{
+  "name": "fluid-project-sequelize",
+  "version": "1.0.0",
+  "description": "Simple contact project with sequelize",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server/app.js"
+  },
+  "author": "Adeola",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
